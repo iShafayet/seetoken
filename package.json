@@ -1,34 +1,35 @@
 {
-    "name": "seetoken",
-    "version": "0.0.0",
-    "description": "Clearly visualize tokens in text files in the terminal.",
-    "main": "index-runner.js",
-    "scripts": {
-        "test": "mocha --compilers coffee:coffee-script/register"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/iShafayet/seetoken.git"
-    },
-    "keywords": [
-        "preprocessor",
-        "preview",
-        "utility",
-        "token",
-        "view"
-    ],
-    "author": "Sayem Shafayet <ishafayet@gmail.com> (http://ishafayet.me/)",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/iShafayet/seetoken/issues"
-    },
-    "homepage": "https://github.com/iShafayet/seetoken",
-    "dependencies": {
-        "coffee-script": "^1.10.0"
-    },
-    "devDependencies": {
-        "chai": "^3.3.0",
-        "mocha": "^2.3.3"
-    },
-    "private": false
+  "name": "seetoken",
+  "version": "0.0.0",
+  "description": "Clearly visualize tokens in text files in the terminal.",
+  "main": "index-runner.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iShafayet/seetoken.git"
+  },
+  "keywords": [
+    "preprocessor",
+    "preview",
+    "utility",
+    "token",
+    "view"
+  ],
+  "author": "Sayem Shafayet <ishafayet@gmail.com> (http://ishafayet.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iShafayet/seetoken/issues"
+  },
+  "homepage": "https://github.com/iShafayet/seetoken",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "private": false
 }

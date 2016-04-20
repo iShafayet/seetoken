@@ -11,6 +11,6 @@ describe 'Seetoken', ->
 
     input = fs.readFileSync './test/sample-files/demo.cohtml', 'utf8'
 
-    Seetoken.display input
+    console.log Seetoken.tokenize input, { color: true }
 
 
