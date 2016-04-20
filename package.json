@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register"
   },
+  "bin": {
+    "seetoken": "cmd-runner.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/iShafayet/seetoken.git"
@@ -25,7 +28,8 @@
   "homepage": "https://github.com/iShafayet/seetoken",
   "dependencies": {
     "coffee-script": "^1.10.0",
-    "colors": "^1.1.2"
+    "colors": "^1.1.2",
+    "commander": "^2.9.0"
   },
   "devDependencies": {
     "chai": "^3.3.0",

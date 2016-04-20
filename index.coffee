@@ -25,7 +25,7 @@ class Seetoken
       else if char is '\r'
         char = '[C]'
         char = (colors.bgRed char) if colorize
-      else if char in [ '=', '"', '\'',',','.', '$' ]
+      else if char in [ '=', '"', '\'',',','.', '$', '#', '<', '>', '`', '-', '_', '|', '+' ]
         char = "[#{char}]"
         char = (colors.bgBlue char) if colorize
       else
