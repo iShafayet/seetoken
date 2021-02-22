@@ -1,6 +1,6 @@
 {
   "name": "seetoken",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Clearly visualize tokens in text files in the terminal.",
   "main": "index-runner.js",
   "scripts": {
