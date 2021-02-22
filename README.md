@@ -1,4 +1,4 @@
-# slowcopy
+# seetoken
 A command line utility to clearly visualize special characters in text files in the terminal.
 
 ![Example](meta/demo.png "Example")
